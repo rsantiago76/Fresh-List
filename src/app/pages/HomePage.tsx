@@ -4,6 +4,8 @@ import { Button } from '../components/Button';
 import { Badge } from '../components/Badge';
 import { Card } from '../components/Card';
 import { FeatureCard } from '../components/FeatureCard';
+import { TechStack } from '../components/TechStack';
+import { ComingSoon } from '../components/ComingSoon';
 import { 
   Sparkles, ArrowRight, Check, Zap, BarChart3, 
   Leaf, ListChecks, TrendingUp, Lightbulb, Star,
@@ -492,6 +494,12 @@ export function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* Tech Stack Section */}
+      <TechStack />
+
+      {/* Coming Soon Section */}
+      <ComingSoon />
 
       {/* Final CTA Banner */}
       <section className="py-24 px-6">
